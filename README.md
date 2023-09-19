@@ -10,5 +10,5 @@ Physics: Juliet, Anda
 GitHub: Luka  
 Coding: Everyone (Juliet will do simpler things)  
 
-## Useful Resources
+## Resources
 Full Body Tracking: https://www.youtube.com/watch?v=XsuZzkuRJls  
