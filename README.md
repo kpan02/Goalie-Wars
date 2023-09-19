@@ -1,3 +1,4 @@
 # Project1
 
-Everyone has cloned their project and created their development branch.
+Everyone has cloned this project and created their development branch.
+We have created a Slack channel.
