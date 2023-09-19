@@ -7,7 +7,7 @@ We have created a Slack channel.
 Design: Juliet - environment, sound  
 Networking: Luka, Kevin, Anda  
 GitHub: Everyone (Luka managing)
-Coding: Luka, Kevin, Anda
+Coding: Luka, Kevin, Anda  
 Testing: Juliet  
 Documentation: Everyone (Juliet Managing)
 
