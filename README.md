@@ -11,7 +11,7 @@
 ## Documentation
 
 - **Video:** [Google Drive Link](https://drive.google.com/file/d/1KTGg_xEC7w5CtDTTV4u8Lfzdq7C3pBDO/view?usp=sharing)
-- **Google Docs:** [Documentation Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
+- **Google Docs:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
 
 <details>
 <summary><strong>Design</strong></summary>
