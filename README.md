@@ -16,8 +16,12 @@ We have created a Slack channel.
 Full Body Tracking: https://www.youtube.com/watch?v=XsuZzkuRJls  
 
 ### Documentation
+
+**Video**  
 https://drive.google.com/file/d/1KTGg_xEC7w5CtDTTV4u8Lfzdq7C3pBDO/view?usp=sharing
 
+**Google Docs**  
+https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing
 
 **Design:**
 
