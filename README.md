@@ -18,6 +18,9 @@
 - Main Menu: Updated main menu design + function, also fixed XR canvas issue, allowing the menu to be accessible in VR
 - Objectives for upcoming sprint: XR interaction components for shooting & blocking the ball. Begin implementing gameplay code.
 
+Instructions: Reference the main branch in our repository for the latest updates to our game. Go to build settings and select both the lobby & multiplayer scenes, to build and run. This will the open into the lobby with the main menu. 
+
+
 ## Documentation
 <details>
 <summary><strong>Design</strong></summary>
