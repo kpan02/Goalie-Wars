@@ -1,8 +1,3 @@
-# Project1
-
-Everyone has cloned this project and created their development branch.  
-We have also established a dedicated Slack channel for communication.
-
 ## Project Members
 
 | Name            | Major | Project Role                          |
@@ -12,9 +7,6 @@ We have also established a dedicated Slack channel for communication.
 | Anda Liang      | CS    | Networking, Coding                    |
 | Kevin Pan       | CS    | Networking, Coding                    |
 
-## Resources
-
-- **Full Body Tracking:** [YouTube Tutorial](https://www.youtube.com/watch?v=XsuZzkuRJls)
 
 ## Documentation
 
