@@ -7,12 +7,18 @@
 | Anda Liang      | CS    | Networking, Coding                    |
 | Kevin Pan       | CS    | Networking, Coding                    |
 
+## SPRINT 3
+**Video:** [Google Drive Link](https://drive.google.com/file/d/1-W5sLKd7UQ8LdRz1HrU8d9a2KGS6FsDG/view?usp=sharing)
+
+**Google Docs:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
+- **Primary Focus:** Design implementation. We created all of the design environments for our menu and gameplay scenes. Design components included a 360 soccer stadium surrounding, detailed soccer field with field lines, interactable goal posts, as well as gameplay assets such as goalie player models and soccer balls. 
+- Mechanics: Game mechanics & physics for our soccer ball. Also added physics for interactions between the ball and gameplay objects such as the goalpost or net
+- Networking: Resolved glaring networking issues from sprint 2
+- XR: Updated our XR rig to a XR hands rig to allow for goalie gameplay. Also added joystick locomotion.
+- Main Menu: Updated main menu design + function, also fixed XR canvas issue, allowing the menu to be accessible in VR
+- Objectives for upcoming sprint: XR interaction components for shooting & blocking the ball. Begin implementing gameplay code.
 
 ## Documentation
-
-- **Video:** [Google Drive Link](https://drive.google.com/file/d/1KTGg_xEC7w5CtDTTV4u8Lfzdq7C3pBDO/view?usp=sharing)
-- **Google Docs:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
-
 <details>
 <summary><strong>Design</strong></summary>
 
