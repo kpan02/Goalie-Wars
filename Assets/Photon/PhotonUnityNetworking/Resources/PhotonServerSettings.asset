@@ -40,6 +40,8 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - RPC_IncreaseNumber
+  - RPC_IncreaseScoreOne
+  - RPC_IncreaseScoreTwo
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
