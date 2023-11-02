@@ -8,7 +8,7 @@ public class OutOfBounds : MonoBehaviour
     {
         if (other.CompareTag("SoccerBall"))
         {
-            other.transform.position = new Vector3(0, 0, 0);
+            other.transform.position = new Vector3(0, 3, 0);
 
             Rigidbody ballRigidbody = other.GetComponent<Rigidbody>();
             if (ballRigidbody)
