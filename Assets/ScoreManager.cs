@@ -17,13 +17,13 @@ public class ScoreManager : MonoBehaviourPunCallbacks
     // Call this method to increase the score for Player One.
     public void IncreaseScoreOne()
     {
-        photonView.RPC("RPC_IncreaseScoreOne", RpcTarget.AllBuffered);
+        photonView.RPC("RPC_IncreaseScoreOne", RpcTarget.AllViaServer);
     }
 
     // Call this method to increase the score for Player Two.
     public void IncreaseScoreTwo()
     {
-        photonView.RPC("RPC_IncreaseScoreTwo", RpcTarget.AllBuffered);
+        photonView.RPC("RPC_IncreaseScoreTwo", RpcTarget.AllViaServer);
     }
 
     [PunRPC]
