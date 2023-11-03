@@ -13,7 +13,7 @@ For the latest updates, please the video and read google docs.
 
 **Video:** [Google Drive Link](https://drive.google.com/file/d/1PxSiCF4NrAehewg1vAR9UrRUCj10hjmh/view?usp=sharing)
 
-**Google Docs:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
+**Documentation:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
 
 ## Gameplay Instructions
 
