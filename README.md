@@ -7,19 +7,15 @@
 | Anda Liang      | CS    | Networking, Coding                    |
 | Kevin Pan       | CS    | Networking, Coding                    |
 
-## SPRINT 3
+## SPRINT 4
+
+For the latest updates, please the video and read google docs.
+
 **Video:** [Google Drive Link](https://drive.google.com/file/d/1-W5sLKd7UQ8LdRz1HrU8d9a2KGS6FsDG/view?usp=sharing)
 
 **Google Docs:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
-- **Primary Focus:** Design implementation. We created all of the design environments for our menu and gameplay scenes. Design components included a 360 soccer stadium surrounding, detailed soccer field with field lines, interactable goal posts, as well as gameplay assets such as goalie player models and soccer balls. 
-- Mechanics: Game mechanics & physics for our soccer ball. Also added physics for interactions between the ball and gameplay objects such as the goalpost or net
-- Networking: Resolved glaring networking issues from sprint 2
-- XR: Updated our XR rig to a XR hands rig to allow for goalie gameplay. Also added joystick locomotion.
-- Main Menu: Updated main menu design + function, also fixed XR canvas issue, allowing the menu to be accessible in VR
-- Objectives for upcoming sprint: XR interaction components for shooting & blocking the ball. Begin implementing gameplay code.
 
-Instructions: Reference the main branch in our repository for the latest updates to our game. Go to build settings and select both the lobby & multiplayer scenes, to build and run. This will the open into the lobby with the main menu. 
-
+Gameplay Instructions: 
 
 ## Documentation
 <details>
@@ -56,12 +52,5 @@ The overarching mood will be excitement, anticipation, and energetic readiness. 
 
 **How Will We Achieve That Mood?**  
 Achieving the desired mood will be achieved through a combination of visual cues, soundscapes, and interactive elements. The fans in the stands will not just be visual entities but will cheer, chant, and react dynamically to the user’s actions. Sound effects will be realistically designed, providing an authentic experience. Moreover, the visual and interactive elements will be crafted to be responsive and engaging; for instance, successfully hitting a button with the ball might trigger a round of applause or a celebratory cheer from the crowd.
-
-</details>
-
-<details>
-<summary><strong>Interactions Design</strong></summary>
-
-We have an interactable ball. Planning to do SFX interactable and inter-object interactables, i.e. cheering sounds when the ball makes contact with the net or the opposing goalie stops the ball. We are not using the default red raycast, because it feels as though that might interfere with the natural feel of the game. For hands and controllers we are going to attempt to download character models from the asset store, but if we are unable we can create cubes for hands and a head. The user body will stay the same throughout the entire experience as they will be the player the entire time. We plan on using continuous locomotion for movement and adding field boundaries to restrict where players can go on the field.
 
 </details>
