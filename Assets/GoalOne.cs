@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ScoreArea : MonoBehaviour
+public class GoalOne : MonoBehaviour
 {
     public ScoreManager scoreManager;
     public TMP_Text DebugText;
