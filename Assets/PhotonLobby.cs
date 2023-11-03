@@ -30,7 +30,7 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
     void Update()
     {
         int numPlayers = PhotonNetwork.CountOfPlayers;
-        txtNumPlayers.text = "Number of Players: " + numPlayers.ToString() + "/20"; //20 because we are on the free tier
+        txtNumPlayers.text = "Number of Players: " + numPlayers.ToString() + "/2"; //20 because we are on the free tier
     }
 
     //Set up envrionment once we are connected to master
@@ -66,9 +66,8 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
         string mes = "Trying to create a room";
         Debug.Log(mes);
         txtInfo.text = mes;
-        int randomRoomName = Random.Range(0, 10000);
         RoomOptions roomOps = new RoomOptions() { IsVisible = true, IsOpen = true, MaxPlayers = 20 }; //all of our players in the same room, if we want multiple rooms, make MaxPlayers to a small number
-        PhotonNetwork.CreateRoom("Room" + randomRoomName, roomOps);
+        PhotonNetwork.CreateRoom("Room 1", roomOps);
     }
 
     //If we fail to create a room, try again.

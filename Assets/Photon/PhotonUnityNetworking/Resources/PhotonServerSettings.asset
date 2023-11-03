@@ -42,6 +42,9 @@ MonoBehaviour:
   - RPC_IncreaseNumber
   - RPC_IncreaseScoreOne
   - RPC_IncreaseScoreTwo
+  - RPC_ActivateButtons
+  - RPC_SetBirdButtonInactive
+  - RPC_SetPigButtonInactive
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
