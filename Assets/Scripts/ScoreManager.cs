@@ -51,7 +51,7 @@ public class ScoreManager : MonoBehaviour
     // Update the Text component with the current score.
     private void UpdateScoreText()
     {
-        scoreOneText.text = "Score: " + scoreOne.ToString();
-        scoreTwoText.text = "Score: " + scoreTwo.ToString();
+        scoreOneText.text = scoreOne.ToString();
+        scoreTwoText.text = scoreTwo.ToString();
     }
 }

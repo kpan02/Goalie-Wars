@@ -15,7 +15,22 @@ For the latest updates, please the video and read google docs.
 
 **Google Docs:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
 
-Gameplay Instructions: 
+## Gameplay Instructions
+
+Welcome to the game! Here are some instructions to get you started and help you navigate through the gameplay:
+
+- **Joining the Game:** Start your game in the lobby.
+- **Moving Around:** Use the left joystick to move around and explore.
+- **Turning:** Utilize the right controller's joystick to turn and orient yourself in the game.
+- **Interacting with the Ball:** Use the pinch gesture on the right controller to grab the ball, and release to throw it - imitate a real-life throw.
+- **Joining a Room:** Press the trigger button on your controller and hit the 'Join Game' button to jump into the action.
+
+### In-Game Experience
+- **Navigate and Score:** Use your controllers to move around, interact with the ball, and try to score a goal!
+- **Scoreboard:** Keep an eye on the scoreboard for live updates on your score.
+- **Out of Bounds:** Don't worry if the ball goes out of bounds; it will come right back.
+
+Enjoy the game and have fun!
 
 ## Documentation
 <details>
