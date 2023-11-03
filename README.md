@@ -9,7 +9,7 @@
 
 ## SPRINT 4
 
-For the latest updates, please the video and read google docs.
+For the latest updates, please see the video and read google docs.
 
 **Video:** [Google Drive Link](https://drive.google.com/file/d/1PxSiCF4NrAehewg1vAR9UrRUCj10hjmh/view?usp=sharing)
 
@@ -19,11 +19,12 @@ For the latest updates, please the video and read google docs.
 
 Welcome to the game! Here are some instructions to get you started and help you navigate through the gameplay:
 
+Build Instructions: Reference the main branch in our repository for the latest updates to our game. Go to build settings and select both the lobby & multiplayer scenes, to build and run. This will the open into the lobby with the main menu. 
 - **Joining the Game:** Start your game in the lobby.
 - **Moving Around:** Use the left joystick to move around and explore.
 - **Turning:** Utilize the right controller's joystick to turn and orient yourself in the game.
-- **Interacting with the Ball:** Use the pinch gesture on the right controller to grab the ball, and release to throw it - imitate a real-life throw.
-- **Joining a Room:** Press the trigger button on your controller and hit the 'Join Game' button to jump into the action.
+- **Interacting with the Ball:** Use the pinch gesture (middle finger) on the right controller to grab the ball, and release to throw it - imitate a real-life overhand throw for best results.
+- **Joining a Room:** Press the trigger button (index finger) on your controller and hit the 'Join Game' button to jump into the action.
 
 ### In-Game Experience
 - **Navigate and Score:** Use your controllers to move around, interact with the ball, and try to score a goal!
