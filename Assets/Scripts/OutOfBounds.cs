@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class OutOfBounds : MonoBehaviour
 {
+    public float x, y, z;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("SoccerBall"))
         {
-            other.transform.position = new Vector3(0, 3, 0);
+            other.transform.position = new Vector3(x, y, z);
 
             Rigidbody ballRigidbody = other.GetComponent<Rigidbody>();
             if (ballRigidbody)
