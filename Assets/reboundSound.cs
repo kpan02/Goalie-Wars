@@ -18,13 +18,7 @@ public class reboundSound : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("SoccerBall"))
         {
-            photonView.RPC("PlayGoalPostSound", RpcTarget.AllBuffered);
+            audioSource.Play();
         }
-    }
-
-    [PunRPC]
-    void PlayGoalPostSound()
-    {
-        audioSource.Play();
     }
 }
