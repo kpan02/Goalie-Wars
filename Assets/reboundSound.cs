@@ -11,14 +11,21 @@ public class reboundSound : MonoBehaviour
 
     void Start()
     {
-        photonView = this.gameObject.GetComponent<PhotonView>();
+        // photonView = this.gameObject.GetComponent<PhotonView>();
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("SoccerBall"))
-        {
-            audioSource.Play();
-        }
+        audioSource.Play();
+        // if (collision.gameObject.CompareTag("SoccerBall"))
+        // {
+        //     photonView.RPC("PlayGoalPostSound", RpcTarget.AllBuffered);
+        // }
     }
+
+    // [PunRPC]
+    // void PlayGoalPostSound()
+    // {
+    //     audioSource.Play();
+    // }
 }
