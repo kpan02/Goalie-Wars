@@ -13,6 +13,9 @@ public class ScoreManager : MonoBehaviour
 
     private int scoreOne = 0; // Player One Score counter
     private int scoreTwo = 0; // Player Two Score counter
+    private int win = 3; // goals needed to win
+
+    public ParticleSystem ribbons;
 
     private PhotonView photonView;
     public TMP_Text DebugText;
@@ -39,6 +42,9 @@ public class ScoreManager : MonoBehaviour
     {
         scoreOne++;
         UpdateScoreText();
+        if (scoreOne >= win) {
+            ribbons.Play();
+        };
     }
 
     [PunRPC]
@@ -46,6 +52,9 @@ public class ScoreManager : MonoBehaviour
     {
         scoreTwo++;
         UpdateScoreText();
+        if (scoreTwo >= win) {
+            ribbons.Play();
+        }
     }
 
     // Update the Text component with the current score.

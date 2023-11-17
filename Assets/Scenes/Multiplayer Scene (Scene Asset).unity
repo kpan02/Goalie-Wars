@@ -631,6 +631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreOneText: {fileID: 1823801471}
   scoreTwoText: {fileID: 662011242}
+  ribbons: {fileID: 1209169745}
   DebugText: {fileID: 1833110259}
 --- !u!4 &410498138
 Transform:
@@ -1845,7 +1846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &1209169744
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -1935,7 +1936,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
