@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.03497506, g: 0.03913957, b: 0.047399834, a: 1}
+  m_IndirectSpecularColor: {r: 0.034981854, g: 0.039057575, b: 0.04740371, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -529,6 +529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreOneText: {fileID: 1823801471}
   scoreTwoText: {fileID: 662011242}
+  ribbons: {fileID: 1209169745}
   DebugText: {fileID: 0}
 --- !u!4 &410498138
 Transform:
@@ -7988,3 +7989,5 @@ SceneRoots:
   - {fileID: 887516982}
   - {fileID: 1316696036}
   - {fileID: 1577383769}
+  - {fileID: 75831148}
+  - {fileID: 1209169746}
