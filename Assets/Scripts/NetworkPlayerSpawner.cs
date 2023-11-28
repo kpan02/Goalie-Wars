@@ -7,18 +7,24 @@ public class networkPlayerSpawner : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
     private GameObject spawnedPlayerPrefab;
+    public GameObject XROrigin;
 
-    public override void OnJoinedRoom()
+    public void Start()
     {
-        base.OnJoinedRoom();
-        spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
+        spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", XROrigin.transform.position, XROrigin.transform.rotation);
     }
 
-    public override void OnLeftRoom()
-    {
-        base.OnLeftRoom();
-        PhotonNetwork.Destroy(spawnedPlayerPrefab);
-    }
+    // public override void OnJoinedRoom()
+    // {
+    //     base.OnJoinedRoom();
+    //     spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
+    // }
+
+    // public override void OnLeftRoom()
+    // {
+    //     base.OnLeftRoom();
+    //     PhotonNetwork.Destroy(spawnedPlayerPrefab);
+    // }
 }
 
 /*
