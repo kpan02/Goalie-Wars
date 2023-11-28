@@ -7,13 +7,25 @@
 | Anda Liang      | CS    | Networking, Coding                    |
 | Kevin Pan       | CS    | Networking, Coding                    |
 
-## SPRINT 4
+## SPRINT 5
 
 For the latest updates, please see the video and read google docs.
+
+**Video:** [Google Drive Link](https://drive.google.com/file/d/1B2yvgVuUJDmwmtxjGRsRg69XepVOLuum/view?usp=sharing)
+
+**Documentation:** [Google Docs Link](https://docs.google.com/document/d/12ZigDncl2jGqQrXcg6EPaNRxkcDRkt-Fk9Vdy6c2b3E/edit?usp=sharing)
+
+## SPRINT 4
 
 **Video:** [Google Drive Link](https://drive.google.com/file/d/1PxSiCF4NrAehewg1vAR9UrRUCj10hjmh/view?usp=sharing)
 
 **Documentation:** [Google Docs Link](https://docs.google.com/document/d/1MNm1wzhELmtL3zWZq8YknuVYYHkd-Rv-Vy4yR8dvoDA/edit?usp=sharing)
+
+## SPRINT 3
+
+**Video:** [Google Drive Link](https://drive.google.com/file/d/1-W5sLKd7UQ8LdRz1HrU8d9a2KGS6FsDG/view?usp=sharing)
+
+**Documentation:** [Google Docs Link](https://docs.google.com/document/d/1khSFB2rGH6h6-lgVvpOu0R8N_my_C7xh2H7mnhvm_Yw/edit?usp=sharing)
 
 ## Gameplay Instructions
 
