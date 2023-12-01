@@ -13,12 +13,11 @@ public class ScoreManager : MonoBehaviour
 
     private int scoreOne = 0; // Player One Score counter
     private int scoreTwo = 0; // Player Two Score counter
-    private int win = 3; // goals needed to win
+    private int win = 5; // goals needed to win
 
     public ParticleSystem ribbons;
 
     private PhotonView photonView;
-    public TMP_Text DebugText;
 
     void Start()
     {
@@ -41,7 +40,9 @@ public class ScoreManager : MonoBehaviour
     void RPC_IncreaseScoreOne()
     {
         scoreOne++;
-        UpdateScoreText();
+        // UpdateScoreText();
+        scoreOneText.text = scoreOne.ToString();
+
         if (scoreOne >= win) {
             ribbons.Play();
         };
@@ -51,16 +52,18 @@ public class ScoreManager : MonoBehaviour
     void RPC_IncreaseScoreTwo()
     {
         scoreTwo++;
-        UpdateScoreText();
+        // UpdateScoreText();
+        scoreTwoText.text = scoreTwo.ToString();
+
         if (scoreTwo >= win) {
             ribbons.Play();
         }
     }
 
     // Update the Text component with the current score.
-    private void UpdateScoreText()
-    {
-        scoreOneText.text = scoreOne.ToString();
-        scoreTwoText.text = scoreTwo.ToString();
-    }
+    // private void UpdateScoreText()
+    // {
+    //     scoreOneText.text = scoreOne.ToString();
+    //     scoreTwoText.text = scoreTwo.ToString();
+    // }
 }

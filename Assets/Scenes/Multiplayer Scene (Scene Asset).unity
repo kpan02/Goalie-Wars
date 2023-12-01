@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.034981854, g: 0.039057575, b: 0.04740371, a: 1}
+  m_IndirectSpecularColor: {r: 0.03497506, g: 0.03913957, b: 0.047399834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -660,10 +660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cbe5183450b74f4bb2f8e7b7a74b920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreOneText: {fileID: 1823801471}
-  scoreTwoText: {fileID: 662011242}
+  scoreOneText: {fileID: 662011242}
+  scoreTwoText: {fileID: 1823801471}
   ribbons: {fileID: 1209169745}
-  DebugText: {fileID: 0}
 --- !u!4 &410498138
 Transform:
   m_ObjectHideFlags: 0
@@ -694,7 +693,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents: []
@@ -7141,7 +7140,7 @@ GameObject:
   - component: {fileID: 1279129536}
   m_Layer: 0
   m_Name: ScoreArea
-  m_TagString: Untagged
+  m_TagString: GoalTwo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7195,7 +7194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 410498137}
-  DebugText: {fileID: 0}
 --- !u!1001 &1316696036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7278,7 +7276,7 @@ GameObject:
   - component: {fileID: 1446806050}
   m_Layer: 0
   m_Name: ScoreArea
-  m_TagString: Untagged
+  m_TagString: GoalOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7332,7 +7330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 410498137}
-  DebugText: {fileID: 0}
 --- !u!1 &1457394641
 GameObject:
   m_ObjectHideFlags: 0
@@ -8204,8 +8201,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8f5cda80efbe3144ca1e2d9cb5f900fc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1696618028}
   m_SourcePrefab: {fileID: 100100000, guid: 8f5cda80efbe3144ca1e2d9cb5f900fc, type: 3}
+--- !u!1 &1696618026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8f5cda80efbe3144ca1e2d9cb5f900fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1696618025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1696618028
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696618026}
+  m_Enabled: 0
+  m_Avatar: {fileID: 9000000, guid: 08dc3f050710e5740a8ba6be1d3b98e1, type: 3}
+  m_Controller: {fileID: 9100000, guid: a8d69b8840c29c2418a1a417ed036cd7, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1701136305
 GameObject:
   m_ObjectHideFlags: 0
@@ -8281,7 +8309,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1730115669}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 109434732395284509, guid: 74442b2c6626249b0bdf602206360b86,
         type: 3}
@@ -8355,7 +8383,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1730115668}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5686134208185136530, guid: 1a0784f2213364dce8d15214537986d5,
         type: 3}

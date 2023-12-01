@@ -6,12 +6,12 @@ using TMPro;
 public class GoalOne : MonoBehaviour
 {
     public ScoreManager scoreManager;
-    public TMP_Text DebugText;
+    // public TMP_Text DebugText;
 
     void OnTriggerEnter(Collider other)
     {
         // DebugText.text = "Collide";
-        if (other.gameObject.tag == "SoccerBall")
+        if (other.gameObject.tag == "SoccerBall" && gameObject.tag == "GoalOne")
         {
             // DebugText.text = "Score";
             scoreManager.IncreaseScoreOne();

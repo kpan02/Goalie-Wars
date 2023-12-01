@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-public class newworkingManager : MonoBehaviourPunCallbacks
+public class networkingManager : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
     void Start()
