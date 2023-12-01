@@ -14,6 +14,7 @@ public class GoalTwo : MonoBehaviour
     private int win = 5;
 
     public ParticleSystem ribbons;
+    public AudioSource audioSource;
     private PhotonView photonView;
 
     private bool goalCooldown = false; // prevent multiple scoring from a single event
@@ -31,6 +32,7 @@ public class GoalTwo : MonoBehaviour
             if (PhotonNetwork.IsMasterClient) // score handling by MasterClient
             {
                 IncreaseScore();
+                audioSource.Play();
             }
         }
     }
