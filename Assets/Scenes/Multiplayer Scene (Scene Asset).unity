@@ -630,76 +630,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 401411948}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &410498136
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 410498138}
-  - component: {fileID: 410498139}
-  - component: {fileID: 410498137}
-  m_Layer: 0
-  m_Name: Score Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &410498137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410498136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cbe5183450b74f4bb2f8e7b7a74b920, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreOneText: {fileID: 662011242}
-  scoreTwoText: {fileID: 1823801471}
-  ribbons: {fileID: 1209169745}
---- !u!4 &410498138
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410498136}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &410498139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410498136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 1
-  OwnershipTransfer: 1
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 1
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
 --- !u!1 &423168633
 GameObject:
   m_ObjectHideFlags: 0
@@ -7138,6 +7068,7 @@ GameObject:
   - component: {fileID: 1279129533}
   - component: {fileID: 1279129535}
   - component: {fileID: 1279129536}
+  - component: {fileID: 1279129537}
   m_Layer: 0
   m_Name: ScoreArea
   m_TagString: GoalTwo
@@ -7193,7 +7124,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f999c07f269e04409a652faa33813719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 410498137}
+  scoreText: {fileID: 1823801471}
+  ribbons: {fileID: 1209169745}
+--- !u!114 &1279129537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279129532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 1
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 4
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1316696036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7274,6 +7228,7 @@ GameObject:
   - component: {fileID: 1446806047}
   - component: {fileID: 1446806049}
   - component: {fileID: 1446806050}
+  - component: {fileID: 1446806051}
   m_Layer: 0
   m_Name: ScoreArea
   m_TagString: GoalOne
@@ -7329,7 +7284,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3f6795175e74d4a8ae790c3178f4e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 410498137}
+  scoreText: {fileID: 662011242}
+  ribbons: {fileID: 1209169745}
+--- !u!114 &1446806051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446806046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 1
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 3
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1457394641
 GameObject:
   m_ObjectHideFlags: 0
@@ -9091,7 +9069,6 @@ SceneRoots:
   - {fileID: 1730115665}
   - {fileID: 538980692}
   - {fileID: 1457394643}
-  - {fileID: 410498138}
   - {fileID: 1553956444}
   - {fileID: 480155068}
   - {fileID: 1029172504}

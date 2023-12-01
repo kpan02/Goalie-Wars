@@ -59,11 +59,4 @@ public class ScoreManager : MonoBehaviour
             ribbons.Play();
         }
     }
-
-    // Update the Text component with the current score.
-    // private void UpdateScoreText()
-    // {
-    //     scoreOneText.text = scoreOne.ToString();
-    //     scoreTwoText.text = scoreTwo.ToString();
-    // }
 }
