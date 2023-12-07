@@ -9,6 +9,9 @@ public class Disconnect : MonoBehaviour
     //Leave the room.
     public void DisconectButton()
     {
+
+        PhotonNetwork.LoadLevel(0);
+        Destroy(this);
         PhotonNetwork.LeaveRoom();
     }
 }

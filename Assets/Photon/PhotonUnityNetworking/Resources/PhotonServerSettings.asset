@@ -50,6 +50,7 @@ MonoBehaviour:
   - PlayGoalPostSound
   - RPC_IncreaseScore
   - RPC_UpdateScore
+  - RPC_PlayAgain
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1
