@@ -11,7 +11,7 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
     public static PhotonLobby lobby;
     RoomInfo[] rooms;
     public GameObject btnJoin;
-    public GameObject btnLeave;
+    // public GameObject btnLeave;
     public TMP_Text txtInfo; // Changed
     public TMP_Text txtNumPlayers; // Changed
 
@@ -47,7 +47,7 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
     {
         Debug.Log("Battle button was click");
         btnJoin.SetActive(false);
-        btnLeave.SetActive(true);
+        // btnLeave.SetActive(true);
         PhotonNetwork.JoinRandomRoom();
     }
 
@@ -80,11 +80,11 @@ public class PhotonLobby : MonoBehaviourPunCallbacks
     }
 
     //Disconect from the room
-    public void OnCancelButtonClick()
-    {
-        btnLeave.SetActive(false);
-        btnJoin.SetActive(true);
-        PhotonNetwork.LeaveRoom();
-    }
+    // public void OnCancelButtonClick()
+    // {
+    //     btnLeave.SetActive(false);
+    //     btnJoin.SetActive(true);
+    //     PhotonNetwork.LeaveRoom();
+    // }
 
 }
