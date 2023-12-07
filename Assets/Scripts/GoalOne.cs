@@ -14,6 +14,7 @@ public class GoalOne : MonoBehaviour
     private int win = 5;
 
     public ParticleSystem ribbons;
+    public ParticleSystem fireworks1;
     public AudioSource audioSource;
     private PhotonView photonView;
 
@@ -33,6 +34,7 @@ public class GoalOne : MonoBehaviour
             {
                 IncreaseScore();
                 audioSource.Play();
+                fireworks1.Play();
             }
         }
     }
