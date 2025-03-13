@@ -1,3 +1,5 @@
+A Unity-based VR implementation of Goalie Wars featuring realistic goalkeeper mechanics and immersive gameplay.
+
 ## Project Members
 
 | Name            | Major | Project Role                          |
